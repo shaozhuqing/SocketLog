@@ -175,7 +175,7 @@ SocketLog适合Ajax调试和API调试。
 
 ## 支持开源程序分析
 
-   有了SocketLog，我们能很方便的分析开源程序，下面以OneThink为例， 大家可以在 http://www.topthink.com/topic/2228.html 下载最新的OneThink程序。 安装好OneThink后，按下面步骤增加SocketLog程序。 
+   有了SocketLog，我们能很方便的分析开源程序，下面以OneThink为例，大家可以下载最新的[OneThink程序](http://www.topthink.com/topic/2228.html)。 安装好OneThink后，按下面步骤增加SocketLog程序。 
 
  * 将SocketLog.class.php复制到OneThink的程序目录中，你如果没有想好将文件放到哪个子文件夹，暂且放到根目录吧。 
  * 编辑入口文件index.php, 再代码的最前面加载slog.function.php ,并设置SocketLog
@@ -205,11 +205,12 @@ SocketLog适合Ajax调试和API调试。
 
 -  提示：另一种更简单的方法，因为OneThink每次执行完sql语句都会调用$this->debug， 所以我们可以把slog($this->queryStr,$this->_linkID); 直接写在 Db.class.php文件的debug方法中。 这样不管是mysqli还是mysql驱动都有效。
 
-## 使用视频教程
- [http://edu.normalcoder.com/course/941](http://edu.normalcoder.com/course/941) 感谢猿团的张盛翔（诺墨）提供教程。
+## 使用教程
+感谢猿团的张盛翔（诺墨）提供[视频](http://edu.normalcoder.com/course/941)教程。
 
 ## 关于作者
-* Author: @luofei614 新浪微博：http://weibo.com/luofei614
+* Author: @luofei614 
+* 新浪微博：http://weibo.com/luofei614
 
 
   [1]: https://github.com/luofei614/SocketLog/raw/master/screenshots/discuz.png
