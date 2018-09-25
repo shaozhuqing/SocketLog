@@ -19,6 +19,7 @@ SocketLog适合Ajax调试和API调试。
  
 ## 效果展示： 
 我们在浏览网站的时候在浏览器console中就知道程序做了什么，这对于二次开发产品十分有用。 下面效果图在console中打印出浏览discuz程序时，执行了哪些sql语句， 以及执行sql语句的调用栈。程序的warning，notice等错误信息也可以打到console中。
+
 ![enter image description here][1]
 
 ## 使用方法：
